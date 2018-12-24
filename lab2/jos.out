@@ -1,0 +1,23 @@
+*** Now run 'make gdb'.
+***
+6828 decimal is XXX octal!
+Physical memory: 66556K available, base = 640K, extended = 65532K
+npages is 16639, npages_basemem is 160, npages_extmem is 16383
+before hanling low memory question, page_free_list is f013b7f0 now
+after hanling low memory question, page_free_list is f011cff8 now
+first_free_page is f013c000
+nfree_basemem is 159, nfree_extmem is 16067
+should be able to allocate three pages
+test flags
+page2kva(pp0) is f03fd000
+check_page_alloc() succeeded!
+check_page() succeeded!
+pages
+check_kern_pgdir() succeeded!
+after hanling low memory question, page_free_list is f011cde8 now
+first_free_page is f013c000
+nfree_basemem is 159, nfree_extmem is 16001
+check_page_installed_pgdir() succeeded!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+qemu-system-i386: terminating on signal 15 from pid 15042 (make)
