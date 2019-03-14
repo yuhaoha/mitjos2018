@@ -1,3 +1,4 @@
 # mitjos2018
-YuHao's os homework.
+Operation System homework
 lab1 and lab2
+written by NKU yuhao
